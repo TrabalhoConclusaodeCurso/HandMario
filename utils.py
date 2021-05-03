@@ -7,7 +7,7 @@ import gym
 import gym_super_mario_bros
 from gym_super_mario_bros.actions import COMPLEX_MOVEMENT
 from gym_chrome_dino.utils.wrappers import make_dino
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from time import sleep
 from config import HAND_GESTURES
 
